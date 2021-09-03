@@ -1,2 +1,1 @@
-<h1> Hello, Welcome to Simple DevOps Project !!   </h1>
-<h2> Hi, there~ Glad to see you here!!!! </h2>
+<h1> Welcome to Simple Ecommerce ver 1.0</h1>
