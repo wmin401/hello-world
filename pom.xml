@@ -70,7 +70,7 @@
               <artifactId>maven-surefire-report-plugin</artifactId>
             </plugin>
 
-            <plugin>
+            <!-- <plugin>
               <groupId>org.codehaus.mojo</groupId>
               <artifactId>findbugs-maven-plugin</artifactId>
             </plugin>
@@ -78,7 +78,7 @@
             <plugin>
               <groupId>org.codehaus.mojo</groupId>
               <artifactId>taglist-maven-plugin</artifactId>
-            </plugin>
+            </plugin> -->
           </reportPlugins>
         </configuration>
       </plugin>
@@ -141,7 +141,7 @@
           <version>2.11</version>
         </plugin>
 
-        <plugin>
+        <!-- <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>findbugs-maven-plugin</artifactId>
           <version>2.3.3</version>
@@ -151,7 +151,7 @@
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>taglist-maven-plugin</artifactId>
           <version>2.4</version>
-        </plugin>
+        </plugin> -->
 
         <plugin>
           <groupId>org.mortbay.jetty</groupId>
@@ -203,6 +203,13 @@
         <version>1.8.5</version>
         <scope>test</scope>
       </dependency>
+
+      <dependency>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>2.4.3</version>
+      </dependency>
+
     </dependencies>
   </dependencyManagement>
 
